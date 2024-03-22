@@ -21,6 +21,16 @@ const regularUser = {
 
 const obj1 = {1: "a", 2: "b"}
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
+// console.log(Object.keys(tinderUser));
+
+const course = {
+    coursename: "pw java",
+    price: "3500",
+    courseInstructor: "someone"
+}
+
+const {courseInstructor} = course
+
+console.log(courseInstructor);
